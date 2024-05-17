@@ -1,0 +1,27 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(90deg, #8593a4,#bd66b0,#eb2510);
+    gap:20px;}
+.btn{
+    background-color: aqua;
+    color: brown;
+    border-radius: 25px;
+  
+
+}
+.parent{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.parent > div {
+    background-color:#8593a4;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}                              
